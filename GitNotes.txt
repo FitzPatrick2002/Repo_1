@@ -6,11 +6,12 @@ mkdir newDir -> make a new direcotry 'newDir' in current folder
 git init -> initializes empty git repository in newDir/.git
 
 //After initialisation of directory I can push stuff to it
-	git remote add origin https://github.com/FitzPatrick2002/Repo_1.git -> I gueass that I'm adding this specific remote repository to the origin file or smth and now git will push all I want to this specific repository
+	git remote add origin https://github.com/FitzPatrick2002/Repo_1.git 
+-> I gueass that I'm adding this specific remote repository to the origin file or smth and now git will push all I want to this specific repository
 
 git branch -M main -> renames the 'master' to 'main' branch
 
-	git push -u origin main -> pushes the main branch to origin, withou -u it wouldn't know with which brnach to merge in case we had many
+	git push -u origin main -> pushes the main branch to origin, withou -u it wouldn't know with which branch to merge in case we had many
 
 //The idea with branching
 
@@ -28,6 +29,7 @@ git checkout br_1 -> moves us to br_1 branch
 - If we create anything in the file explorere it will be saved into the branch br_1 
 
 git add --all -> adds all to staging env. (new ones, changes, everything)
+git commit -a -m "asasa" -> -a means to automatically stage tracked and modified files without using 'git add', -m addes message
 
 
 
