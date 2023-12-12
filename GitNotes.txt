@@ -1,0 +1,35 @@
+git version -> gives you the current installed version
+git config --global user.name FitzPatrick1978
+git config --global user.email miloszlini@gmail.com
+
+mkdir newDir -> make a new direcotry 'newDir' in current folder 
+git init -> initializes empty git repository in newDir/.git
+
+//After initialisation of directory I can push stuff to it
+	git remote add origin https://github.com/FitzPatrick2002/Repo_1.git -> I gueass that I'm adding this specific remote repository to the origin file or smth and now git will push all I want to this specific repository
+
+git branch -M main -> renames the 'master' to 'main' branch
+
+	git push -u origin main -> pushes the main branch to origin, withou -u it wouldn't know with which brnach to merge in case we had many
+
+//The idea with branching
+
+- We have the main project
+- We want to make a change -> create a separate branch
+- There is an error in the change
+- Make another branch fixing this problem
+- merge the small error fix branch with the new-design branch
+- As the work is done with the new feature merge the new-design with the main branch
+
+git branch br_1 -> creates a new branch br_1
+git branch -> shows all available branches
+git checkout br_1 -> moves us to br_1 branch
+
+- If we create anything in the file explorere it will be saved into the branch br_1 
+
+git add --all -> adds all to staging env. (new ones, changes, everything)
+
+
+
+
+
