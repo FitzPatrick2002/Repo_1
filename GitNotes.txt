@@ -34,6 +34,10 @@ git merge br_1 -> we are merging br_1 with the current branch (main)
 git add --all -> adds all to staging env. (new ones, changes, everything)
 git commit -a -m "asasa" -> -a means to automatically stage tracked and modified files without using 'git add', -m addes message
 
+If after merging I get 
+Already up to date -> now main is a child of br_1 -> all chenges from br_1 are in the main. It has been sucesfully merged
+
+git branch -d br_1 -> delte the br_1 branch
 
 
 
